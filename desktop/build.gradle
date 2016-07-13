@@ -1,0 +1,20 @@
+apply plugin: "java"
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+dependencies {
+    compile project(":core")
+
+    compile fileTree(dir: 'libs', include: '*.jar')
+    compile "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
+    compile "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+}
+
+
+task copyAssets(type: Copy) {
+    println "$projectDir/core/src/main/assets"
+    into "$buildDir/assets/"
+    from "$rootDir/core/src/main/assets"
+}
