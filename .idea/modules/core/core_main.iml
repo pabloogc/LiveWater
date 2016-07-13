@@ -15,7 +15,9 @@
           <root url="jar://$MODULE_DIR$/../../../core/libs/gdx-liquidfun.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../core/libs/gdx-liquidfun.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx:1.9.3" level="project" />

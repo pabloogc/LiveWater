@@ -15,7 +15,9 @@
           <root url="jar://$MODULE_DIR$/../../../core/libs/gdx-liquidfun.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../core/libs/gdx-liquidfun.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="core_main" />

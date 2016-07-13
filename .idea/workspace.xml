@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0cf26c6-2ae6-4a98-bbe5-0ee62079a3bf" name="Default" comment="" />
+    <list default="true" id="f0cf26c6-2ae6-4a98-bbe5-0ee62079a3bf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/libs/gdx-liquidfun.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/libs/gdx-liquidfun-natives.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Droplet.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/LiquidfunTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/core/core_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/core/core_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/core/core_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/core/core_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/desktop/desktop_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/desktop/desktop_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/desktop/desktop_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/desktop/desktop_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Game.kt" afterPath="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Game.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/GdxUtils.kt" afterPath="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/GdxUtils.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/src/main/java/com/minivac/livewater/desktop/DesktopLauncher.java" afterPath="$PROJECT_DIR$/desktop/src/main/java/com/minivac/livewater/desktop/DesktopLauncher.java" />
+    </list>
     <ignored path="LiveWater.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/core/.gradle/" />
@@ -43,60 +59,103 @@
       <file leaf-file-name="DesktopLauncher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desktop/src/main/java/com/minivac/livewater/desktop/DesktopLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Game.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Game.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="638">
+              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PolygonShape.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/com/badlogic/gdx/physics/box2d/PolygonShape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
               <folding>
-                <element signature="e#31#215#0" expanded="true" />
+                <element signature="e#2872#2873#0" expanded="true" />
+                <element signature="e#2904#2905#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Body.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/com/badlogic/gdx/physics/box2d/Body.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+            <state relative-caret-position="267">
+              <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/ApplicationAdapter.java">
+      <file leaf-file-name="Box2DDebugRenderer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/com/badlogic/gdx/physics/box2d/Box2DDebugRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="257">
+              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+              <folding>
+                <element signature="e#2046#2047#0" expanded="true" />
+                <element signature="e#2095#2096#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShaderProgram.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/glutils/ShaderProgram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PerspectiveCamera.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/PerspectiveCamera.java">
+      <file leaf-file-name="ShapeRenderer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/glutils/ShapeRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="267">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <folding>
+                <element signature="e#4088#4089#0" expanded="true" />
+                <element signature="e#4105#4106#0" expanded="true" />
+                <element signature="e#4148#4149#0" expanded="true" />
+                <element signature="e#4178#4179#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/Application.java">
+      <file leaf-file-name="Droplet.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Droplet.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="113" column="19" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="19" />
+            <state relative-caret-position="616">
+              <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
+              <folding>
+                <element signature="e#31#626#0" expanded="true" />
+                <marker date="1468446631351" expanded="true" signature="4862:4964" ph="{...}" />
+                <marker date="1468446631351" expanded="true" signature="5117:5329" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParticleSystem.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/finnstr/libgdx/liquidfun/ParticleSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="184" column="13" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -105,59 +164,10 @@
       <file leaf-file-name="GdxUtils.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/GdxUtils.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matrix4.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/math/Matrix4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5644">
-              <caret line="362" column="19" selection-start-line="362" selection-start-column="19" selection-end-line="362" selection-end-column="19" />
+            <state relative-caret-position="264">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#4902#4903#0" expanded="false" />
-                <element signature="e#4925#4926#0" expanded="false" />
-                <element signature="e#5290#5291#0" expanded="false" />
-                <element signature="e#5313#5314#0" expanded="false" />
-                <element signature="e#5512#5513#0" expanded="false" />
-                <element signature="e#5539#5540#0" expanded="false" />
-                <element signature="e#5804#5805#0" expanded="false" />
-                <element signature="e#5841#5842#0" expanded="false" />
-                <element signature="e#6087#6088#0" expanded="false" />
-                <element signature="e#6121#6122#0" expanded="false" />
-                <element signature="e#6912#6913#0" expanded="false" />
-                <element signature="e#6985#6986#0" expanded="false" />
-                <element signature="e#13277#13278#0" expanded="false" />
-                <element signature="e#13308#13309#0" expanded="false" />
-                <element signature="e#14259#14260#0" expanded="false" />
-                <element signature="e#14276#14277#0" expanded="false" />
-                <element signature="e#32871#32872#0" expanded="false" />
-                <element signature="e#32915#32916#0" expanded="false" />
-                <element signature="e#43200#43201#0" expanded="false" />
-                <element signature="e#43242#43243#0" expanded="false" />
-                <element signature="e#44837#44838#0" expanded="false" />
-                <element signature="e#44899#44900#0" expanded="false" />
-                <element signature="e#59975#59976#0" expanded="false" />
-                <element signature="e#60043#60044#0" expanded="false" />
-                <element signature="e#63665#63666#0" expanded="false" />
-                <element signature="e#63712#63713#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GL20.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/GL20.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6953">
-              <caret line="425" column="16" selection-start-line="425" selection-start-column="16" selection-end-line="425" selection-end-column="16" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
+                <element signature="e#31#105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,10 +182,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/78v82fsf226usgvgh7q2ptcvif/gradle-2.10" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\pablo\.gradle\wrapper\dists\gradle-2.10-all\dsjfzfdv0b7g6tl0p5fhv6wr3\gradle-2.10" />
       </map>
     </option>
     <option name="availableProjects">
@@ -608,7 +621,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5873624240000" />
+        <entry key="$PROJECT_DIR$" value="5873739815885" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -847,10 +860,13 @@
       <list>
         <option value="$PROJECT_DIR$/desktop/build.gradle" />
         <option value="$PROJECT_DIR$/core/build.gradle" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/LiquidfunTest.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Droplet.java" />
         <option value="$PROJECT_DIR$/desktop/src/main/java/com/minivac/livewater/desktop/DesktopLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/GdxUtils.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Droplet.kt" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Game.kt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -862,9 +878,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="2578" />
+    <option name="height" value="1408" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -891,6 +908,51 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="desktop">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="core">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="core">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="core">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -921,6 +983,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="desktop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiveWater" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiveWater" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1094,51 +1178,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="desktop">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="core">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="core">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="core">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1146,19 +1185,21 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/core/libs" />
-      <recent name="$PROJECT_DIR$/desktop/libs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/core/src/main/assets" />
       <recent name="$PROJECT_DIR$/core/src/main/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pablo\development\LiveWater\desktop\libs" />
+      <recent name="C:\Users\pablo\development\LiveWater\core\libs" />
+      <recent name="$PROJECT_DIR$/core/libs" />
+      <recent name="$PROJECT_DIR$/desktop/libs" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DesktopLauncher">
@@ -1262,16 +1303,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="additionalArguments" value="" />
-      <option name="command" value="run" />
-      <option name="environmentVariables">
-        <map />
-      </option>
-      <option name="printBacktrace" value="false" />
-      <module name="core" />
       <method />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -1468,28 +1499,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="2578" height="1408" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="100" y="123" width="1718" height="853" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2086331" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23212436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23188406" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1512,7 +1543,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1521,319 +1552,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/desktop/src/main/java/com/minivac/livewater/desktop/DesktopLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Game.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#31#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/math/Matrix4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5644">
-          <caret line="362" column="19" selection-start-line="362" selection-start-column="19" selection-end-line="362" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#4902#4903#0" expanded="false" />
-            <element signature="e#4925#4926#0" expanded="false" />
-            <element signature="e#5290#5291#0" expanded="false" />
-            <element signature="e#5313#5314#0" expanded="false" />
-            <element signature="e#5512#5513#0" expanded="false" />
-            <element signature="e#5539#5540#0" expanded="false" />
-            <element signature="e#5804#5805#0" expanded="false" />
-            <element signature="e#5841#5842#0" expanded="false" />
-            <element signature="e#6087#6088#0" expanded="false" />
-            <element signature="e#6121#6122#0" expanded="false" />
-            <element signature="e#6912#6913#0" expanded="false" />
-            <element signature="e#6985#6986#0" expanded="false" />
-            <element signature="e#13277#13278#0" expanded="false" />
-            <element signature="e#13308#13309#0" expanded="false" />
-            <element signature="e#14259#14260#0" expanded="false" />
-            <element signature="e#14276#14277#0" expanded="false" />
-            <element signature="e#32871#32872#0" expanded="false" />
-            <element signature="e#32915#32916#0" expanded="false" />
-            <element signature="e#43200#43201#0" expanded="false" />
-            <element signature="e#43242#43243#0" expanded="false" />
-            <element signature="e#44837#44838#0" expanded="false" />
-            <element signature="e#44899#44900#0" expanded="false" />
-            <element signature="e#59975#59976#0" expanded="false" />
-            <element signature="e#60043#60044#0" expanded="false" />
-            <element signature="e#63665#63666#0" expanded="false" />
-            <element signature="e#63712#63713#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/GL20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6953">
-          <caret line="425" column="16" selection-start-line="425" selection-start-column="16" selection-end-line="425" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.3/7b68e24f28daece0760c36360cfa9da18057a443/gdx-backend-lwjgl-1.9.3-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglGL20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10489">
-          <caret line="838" column="19" selection-start-line="838" selection-start-column="19" selection-end-line="838" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2423#2424#0" expanded="false" />
-            <element signature="e#2459#2460#0" expanded="false" />
-            <element signature="e#2516#2517#0" expanded="false" />
-            <element signature="e#2559#2560#0" expanded="false" />
-            <element signature="e#2742#2743#0" expanded="false" />
-            <element signature="e#2782#2783#0" expanded="false" />
-            <element signature="e#3108#3109#0" expanded="false" />
-            <element signature="e#3150#3151#0" expanded="false" />
-            <element signature="e#3321#3322#0" expanded="false" />
-            <element signature="e#3354#3355#0" expanded="false" />
-            <element signature="e#3423#3424#0" expanded="false" />
-            <element signature="e#3478#3479#0" expanded="false" />
-            <element signature="e#3533#3534#0" expanded="false" />
-            <element signature="e#3574#3575#0" expanded="false" />
-            <element signature="e#5093#5094#0" expanded="false" />
-            <element signature="e#5163#5164#0" expanded="false" />
-            <element signature="e#5198#5199#0" expanded="false" />
-            <element signature="e#5223#5224#0" expanded="false" />
-            <element signature="e#5395#5396#0" expanded="false" />
-            <element signature="e#5426#5427#0" expanded="false" />
-            <element signature="e#5465#5466#0" expanded="false" />
-            <element signature="e#5494#5495#0" expanded="false" />
-            <element signature="e#5673#5674#0" expanded="false" />
-            <element signature="e#5708#5709#0" expanded="false" />
-            <element signature="e#6805#6806#0" expanded="false" />
-            <element signature="e#6841#6842#0" expanded="false" />
-            <element signature="e#6882#6883#0" expanded="false" />
-            <element signature="e#6921#6922#0" expanded="false" />
-            <element signature="e#6959#6960#0" expanded="false" />
-            <element signature="e#6987#6988#0" expanded="false" />
-            <element signature="e#7046#7047#0" expanded="false" />
-            <element signature="e#7082#7083#0" expanded="false" />
-            <element signature="e#7137#7138#0" expanded="false" />
-            <element signature="e#7172#7173#0" expanded="false" />
-            <element signature="e#7371#7372#0" expanded="false" />
-            <element signature="e#7435#7436#0" expanded="false" />
-            <element signature="e#7481#7482#0" expanded="false" />
-            <element signature="e#7517#7518#0" expanded="false" />
-            <element signature="e#7711#7712#0" expanded="false" />
-            <element signature="e#7777#7778#0" expanded="false" />
-            <element signature="e#7821#7822#0" expanded="false" />
-            <element signature="e#7855#7856#0" expanded="false" />
-            <element signature="e#7916#7917#0" expanded="false" />
-            <element signature="e#7954#7955#0" expanded="false" />
-            <element signature="e#8011#8012#0" expanded="false" />
-            <element signature="e#8048#8049#0" expanded="false" />
-            <element signature="e#8087#8088#0" expanded="false" />
-            <element signature="e#8116#8117#0" expanded="false" />
-            <element signature="e#8159#8160#0" expanded="false" />
-            <element signature="e#8188#8189#0" expanded="false" />
-            <element signature="e#8244#8245#0" expanded="false" />
-            <element signature="e#8281#8282#0" expanded="false" />
-            <element signature="e#8338#8339#0" expanded="false" />
-            <element signature="e#8381#8382#0" expanded="false" />
-            <element signature="e#8417#8418#0" expanded="false" />
-            <element signature="e#8443#8444#0" expanded="false" />
-            <element signature="e#8498#8499#0" expanded="false" />
-            <element signature="e#8543#8544#0" expanded="false" />
-            <element signature="e#8605#8606#0" expanded="false" />
-            <element signature="e#8649#8650#0" expanded="false" />
-            <element signature="e#9419#9420#0" expanded="false" />
-            <element signature="e#9444#9445#0" expanded="false" />
-            <element signature="e#9498#9499#0" expanded="false" />
-            <element signature="e#9542#9543#0" expanded="false" />
-            <element signature="e#9570#9571#0" expanded="false" />
-            <element signature="e#9592#9593#0" expanded="false" />
-            <element signature="e#9619#9620#0" expanded="false" />
-            <element signature="e#9640#9641#0" expanded="false" />
-            <element signature="e#10109#10110#0" expanded="false" />
-            <element signature="e#10138#10139#0" expanded="false" />
-            <element signature="e#10194#10195#0" expanded="false" />
-            <element signature="e#10227#10228#0" expanded="false" />
-            <element signature="e#10257#10258#0" expanded="false" />
-            <element signature="e#10290#10291#0" expanded="false" />
-            <element signature="e#10453#10454#0" expanded="false" />
-            <element signature="e#10510#10511#0" expanded="false" />
-            <element signature="e#10678#10679#0" expanded="false" />
-            <element signature="e#10736#10737#0" expanded="false" />
-            <element signature="e#10794#10795#0" expanded="false" />
-            <element signature="e#10829#10830#0" expanded="false" />
-            <element signature="e#10860#10861#0" expanded="false" />
-            <element signature="e#10894#10895#0" expanded="false" />
-            <element signature="e#10940#10941#0" expanded="false" />
-            <element signature="e#10995#10996#0" expanded="false" />
-            <element signature="e#11985#11986#0" expanded="false" />
-            <element signature="e#12038#12039#0" expanded="false" />
-            <element signature="e#12095#12096#0" expanded="false" />
-            <element signature="e#12146#12147#0" expanded="false" />
-            <element signature="e#12311#12312#0" expanded="false" />
-            <element signature="e#12342#12343#0" expanded="false" />
-            <element signature="e#12402#12403#0" expanded="false" />
-            <element signature="e#12439#12440#0" expanded="false" />
-            <element signature="e#12712#12713#0" expanded="false" />
-            <element signature="e#12751#12752#0" expanded="false" />
-            <element signature="e#13289#13290#0" expanded="false" />
-            <element signature="e#13337#13338#0" expanded="false" />
-            <element signature="e#14231#14232#0" expanded="false" />
-            <element signature="e#14277#14278#0" expanded="false" />
-            <element signature="e#14318#14319#0" expanded="false" />
-            <element signature="e#14354#14355#0" expanded="false" />
-            <element signature="e#14679#14680#0" expanded="false" />
-            <element signature="e#14733#14734#0" expanded="false" />
-            <element signature="e#15454#15455#0" expanded="false" />
-            <element signature="e#15486#15487#0" expanded="false" />
-            <element signature="e#15529#15530#0" expanded="false" />
-            <element signature="e#15566#15567#0" expanded="false" />
-            <element signature="e#15607#15608#0" expanded="false" />
-            <element signature="e#15642#15643#0" expanded="false" />
-            <element signature="e#15695#15696#0" expanded="false" />
-            <element signature="e#15761#15762#0" expanded="false" />
-            <element signature="e#15806#15807#0" expanded="false" />
-            <element signature="e#15845#15846#0" expanded="false" />
-            <element signature="e#15900#15901#0" expanded="false" />
-            <element signature="e#15968#15969#0" expanded="false" />
-            <element signature="e#16011#16012#0" expanded="false" />
-            <element signature="e#16048#16049#0" expanded="false" />
-            <element signature="e#16093#16094#0" expanded="false" />
-            <element signature="e#16132#16133#0" expanded="false" />
-            <element signature="e#16174#16175#0" expanded="false" />
-            <element signature="e#16204#16205#0" expanded="false" />
-            <element signature="e#16248#16249#0" expanded="false" />
-            <element signature="e#16282#16283#0" expanded="false" />
-            <element signature="e#16335#16336#0" expanded="false" />
-            <element signature="e#16374#16375#0" expanded="false" />
-            <element signature="e#16434#16435#0" expanded="false" />
-            <element signature="e#16476#16477#0" expanded="false" />
-            <element signature="e#17557#17558#0" expanded="false" />
-            <element signature="e#17600#17601#0" expanded="false" />
-            <element signature="e#17664#17665#0" expanded="false" />
-            <element signature="e#17706#17707#0" expanded="false" />
-            <element signature="e#17946#17947#0" expanded="false" />
-            <element signature="e#17988#17989#0" expanded="false" />
-            <element signature="e#18048#18049#0" expanded="false" />
-            <element signature="e#18090#18091#0" expanded="false" />
-            <element signature="e#18265#18266#0" expanded="false" />
-            <element signature="e#18296#18297#0" expanded="false" />
-            <element signature="e#18355#18356#0" expanded="false" />
-            <element signature="e#18400#18401#0" expanded="false" />
-            <element signature="e#18461#18462#0" expanded="false" />
-            <element signature="e#18504#18505#0" expanded="false" />
-            <element signature="e#19951#19952#0" expanded="false" />
-            <element signature="e#20000#20001#0" expanded="false" />
-            <element signature="e#20193#20194#0" expanded="false" />
-            <element signature="e#20242#20243#0" expanded="false" />
-            <element signature="e#20317#20318#0" expanded="false" />
-            <element signature="e#20366#20367#0" expanded="false" />
-            <element signature="e#21507#21508#0" expanded="false" />
-            <element signature="e#21543#21544#0" expanded="false" />
-            <element signature="e#21613#21614#0" expanded="false" />
-            <element signature="e#21648#21649#0" expanded="false" />
-            <element signature="e#21841#21842#0" expanded="false" />
-            <element signature="e#21877#21878#0" expanded="false" />
-            <element signature="e#21945#21946#0" expanded="false" />
-            <element signature="e#21980#21981#0" expanded="false" />
-            <element signature="e#22191#22192#0" expanded="false" />
-            <element signature="e#22230#22231#0" expanded="false" />
-            <element signature="e#22300#22301#0" expanded="false" />
-            <element signature="e#22335#22336#0" expanded="false" />
-            <element signature="e#22540#22541#0" expanded="false" />
-            <element signature="e#22579#22580#0" expanded="false" />
-            <element signature="e#22647#22648#0" expanded="false" />
-            <element signature="e#22682#22683#0" expanded="false" />
-            <element signature="e#22896#22897#0" expanded="false" />
-            <element signature="e#22938#22939#0" expanded="false" />
-            <element signature="e#23008#23009#0" expanded="false" />
-            <element signature="e#23043#23044#0" expanded="false" />
-            <element signature="e#23254#23255#0" expanded="false" />
-            <element signature="e#23296#23297#0" expanded="false" />
-            <element signature="e#23364#23365#0" expanded="false" />
-            <element signature="e#23399#23400#0" expanded="false" />
-            <element signature="e#23621#23622#0" expanded="false" />
-            <element signature="e#23666#23667#0" expanded="false" />
-            <element signature="e#23736#23737#0" expanded="false" />
-            <element signature="e#23771#23772#0" expanded="false" />
-            <element signature="e#23990#23991#0" expanded="false" />
-            <element signature="e#24035#24036#0" expanded="false" />
-            <element signature="e#24103#24104#0" expanded="false" />
-            <element signature="e#24138#24139#0" expanded="false" />
-            <element signature="e#25383#25384#0" expanded="false" />
-            <element signature="e#25416#25417#0" expanded="false" />
-            <element signature="e#25464#25465#0" expanded="false" />
-            <element signature="e#25502#25503#0" expanded="false" />
-            <element signature="e#25555#25556#0" expanded="false" />
-            <element signature="e#25592#25593#0" expanded="false" />
-            <element signature="e#25657#25658#0" expanded="false" />
-            <element signature="e#25705#25706#0" expanded="false" />
-            <element signature="e#25767#25768#0" expanded="false" />
-            <element signature="e#25807#25808#0" expanded="false" />
-            <element signature="e#26005#26006#0" expanded="false" />
-            <element signature="e#26048#26049#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2/4d114b5ef3ad3bf571b1f090cb00855991067e0b/lwjgl-2.9.2-sources.jar!/org/lwjgl/opengl/GL11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55403">
-          <caret line="3259" column="23" selection-start-line="3259" selection-start-column="23" selection-end-line="3259" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/main/java/com/minivac/livewater/desktop/DesktopLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Game.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#31#215#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1845,34 +1568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.3/7b68e24f28daece0760c36360cfa9da18057a443/gdx-backend-lwjgl-1.9.3-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.3/7b68e24f28daece0760c36360cfa9da18057a443/gdx-backend-lwjgl-1.9.3-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglFileHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/files/FileHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/Files.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.3/7b68e24f28daece0760c36360cfa9da18057a443/gdx-backend-lwjgl-1.9.3-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglFiles.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.3/7b68e24f28daece0760c36360cfa9da18057a443/gdx-backend-lwjgl-1.9.3-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglFileHandle.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/files/FileHandle.java" />
     <entry file="file://$PROJECT_DIR$/core/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1881,363 +1580,310 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2/4d114b5ef3ad3bf571b1f090cb00855991067e0b/lwjgl-2.9.2-sources.jar!/org/lwjgl/opengl/GL11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55386">
-          <caret line="3259" column="23" selection-start-line="3259" selection-start-column="23" selection-end-line="3259" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.3/7b68e24f28daece0760c36360cfa9da18057a443/gdx-backend-lwjgl-1.9.3-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglGL20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10489">
-          <caret line="838" column="19" selection-start-line="838" selection-start-column="19" selection-end-line="838" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2423#2424#0" expanded="false" />
-            <element signature="e#2459#2460#0" expanded="false" />
-            <element signature="e#2516#2517#0" expanded="false" />
-            <element signature="e#2559#2560#0" expanded="false" />
-            <element signature="e#2742#2743#0" expanded="false" />
-            <element signature="e#2782#2783#0" expanded="false" />
-            <element signature="e#3108#3109#0" expanded="false" />
-            <element signature="e#3150#3151#0" expanded="false" />
-            <element signature="e#3321#3322#0" expanded="false" />
-            <element signature="e#3354#3355#0" expanded="false" />
-            <element signature="e#3423#3424#0" expanded="false" />
-            <element signature="e#3478#3479#0" expanded="false" />
-            <element signature="e#3533#3534#0" expanded="false" />
-            <element signature="e#3574#3575#0" expanded="false" />
-            <element signature="e#5093#5094#0" expanded="false" />
-            <element signature="e#5163#5164#0" expanded="false" />
-            <element signature="e#5198#5199#0" expanded="false" />
-            <element signature="e#5223#5224#0" expanded="false" />
-            <element signature="e#5395#5396#0" expanded="false" />
-            <element signature="e#5426#5427#0" expanded="false" />
-            <element signature="e#5465#5466#0" expanded="false" />
-            <element signature="e#5494#5495#0" expanded="false" />
-            <element signature="e#5673#5674#0" expanded="false" />
-            <element signature="e#5708#5709#0" expanded="false" />
-            <element signature="e#6805#6806#0" expanded="false" />
-            <element signature="e#6841#6842#0" expanded="false" />
-            <element signature="e#6882#6883#0" expanded="false" />
-            <element signature="e#6921#6922#0" expanded="false" />
-            <element signature="e#6959#6960#0" expanded="false" />
-            <element signature="e#6987#6988#0" expanded="false" />
-            <element signature="e#7046#7047#0" expanded="false" />
-            <element signature="e#7082#7083#0" expanded="false" />
-            <element signature="e#7137#7138#0" expanded="false" />
-            <element signature="e#7172#7173#0" expanded="false" />
-            <element signature="e#7371#7372#0" expanded="false" />
-            <element signature="e#7435#7436#0" expanded="false" />
-            <element signature="e#7481#7482#0" expanded="false" />
-            <element signature="e#7517#7518#0" expanded="false" />
-            <element signature="e#7711#7712#0" expanded="false" />
-            <element signature="e#7777#7778#0" expanded="false" />
-            <element signature="e#7821#7822#0" expanded="false" />
-            <element signature="e#7855#7856#0" expanded="false" />
-            <element signature="e#7916#7917#0" expanded="false" />
-            <element signature="e#7954#7955#0" expanded="false" />
-            <element signature="e#8011#8012#0" expanded="false" />
-            <element signature="e#8048#8049#0" expanded="false" />
-            <element signature="e#8087#8088#0" expanded="false" />
-            <element signature="e#8116#8117#0" expanded="false" />
-            <element signature="e#8159#8160#0" expanded="false" />
-            <element signature="e#8188#8189#0" expanded="false" />
-            <element signature="e#8244#8245#0" expanded="false" />
-            <element signature="e#8281#8282#0" expanded="false" />
-            <element signature="e#8338#8339#0" expanded="false" />
-            <element signature="e#8381#8382#0" expanded="false" />
-            <element signature="e#8417#8418#0" expanded="false" />
-            <element signature="e#8443#8444#0" expanded="false" />
-            <element signature="e#8498#8499#0" expanded="false" />
-            <element signature="e#8543#8544#0" expanded="false" />
-            <element signature="e#8605#8606#0" expanded="false" />
-            <element signature="e#8649#8650#0" expanded="false" />
-            <element signature="e#9419#9420#0" expanded="false" />
-            <element signature="e#9444#9445#0" expanded="false" />
-            <element signature="e#9498#9499#0" expanded="false" />
-            <element signature="e#9542#9543#0" expanded="false" />
-            <element signature="e#9570#9571#0" expanded="false" />
-            <element signature="e#9592#9593#0" expanded="false" />
-            <element signature="e#9619#9620#0" expanded="false" />
-            <element signature="e#9640#9641#0" expanded="false" />
-            <element signature="e#10109#10110#0" expanded="false" />
-            <element signature="e#10138#10139#0" expanded="false" />
-            <element signature="e#10194#10195#0" expanded="false" />
-            <element signature="e#10227#10228#0" expanded="false" />
-            <element signature="e#10257#10258#0" expanded="false" />
-            <element signature="e#10290#10291#0" expanded="false" />
-            <element signature="e#10453#10454#0" expanded="false" />
-            <element signature="e#10510#10511#0" expanded="false" />
-            <element signature="e#10678#10679#0" expanded="false" />
-            <element signature="e#10736#10737#0" expanded="false" />
-            <element signature="e#10794#10795#0" expanded="false" />
-            <element signature="e#10829#10830#0" expanded="false" />
-            <element signature="e#10860#10861#0" expanded="false" />
-            <element signature="e#10894#10895#0" expanded="false" />
-            <element signature="e#10940#10941#0" expanded="false" />
-            <element signature="e#10995#10996#0" expanded="false" />
-            <element signature="e#11985#11986#0" expanded="false" />
-            <element signature="e#12038#12039#0" expanded="false" />
-            <element signature="e#12095#12096#0" expanded="false" />
-            <element signature="e#12146#12147#0" expanded="false" />
-            <element signature="e#12311#12312#0" expanded="false" />
-            <element signature="e#12342#12343#0" expanded="false" />
-            <element signature="e#12402#12403#0" expanded="false" />
-            <element signature="e#12439#12440#0" expanded="false" />
-            <element signature="e#12712#12713#0" expanded="false" />
-            <element signature="e#12751#12752#0" expanded="false" />
-            <element signature="e#13289#13290#0" expanded="false" />
-            <element signature="e#13337#13338#0" expanded="false" />
-            <element signature="e#14231#14232#0" expanded="false" />
-            <element signature="e#14277#14278#0" expanded="false" />
-            <element signature="e#14318#14319#0" expanded="false" />
-            <element signature="e#14354#14355#0" expanded="false" />
-            <element signature="e#14679#14680#0" expanded="false" />
-            <element signature="e#14733#14734#0" expanded="false" />
-            <element signature="e#15454#15455#0" expanded="false" />
-            <element signature="e#15486#15487#0" expanded="false" />
-            <element signature="e#15529#15530#0" expanded="false" />
-            <element signature="e#15566#15567#0" expanded="false" />
-            <element signature="e#15607#15608#0" expanded="false" />
-            <element signature="e#15642#15643#0" expanded="false" />
-            <element signature="e#15695#15696#0" expanded="false" />
-            <element signature="e#15761#15762#0" expanded="false" />
-            <element signature="e#15806#15807#0" expanded="false" />
-            <element signature="e#15845#15846#0" expanded="false" />
-            <element signature="e#15900#15901#0" expanded="false" />
-            <element signature="e#15968#15969#0" expanded="false" />
-            <element signature="e#16011#16012#0" expanded="false" />
-            <element signature="e#16048#16049#0" expanded="false" />
-            <element signature="e#16093#16094#0" expanded="false" />
-            <element signature="e#16132#16133#0" expanded="false" />
-            <element signature="e#16174#16175#0" expanded="false" />
-            <element signature="e#16204#16205#0" expanded="false" />
-            <element signature="e#16248#16249#0" expanded="false" />
-            <element signature="e#16282#16283#0" expanded="false" />
-            <element signature="e#16335#16336#0" expanded="false" />
-            <element signature="e#16374#16375#0" expanded="false" />
-            <element signature="e#16434#16435#0" expanded="false" />
-            <element signature="e#16476#16477#0" expanded="false" />
-            <element signature="e#17557#17558#0" expanded="false" />
-            <element signature="e#17600#17601#0" expanded="false" />
-            <element signature="e#17664#17665#0" expanded="false" />
-            <element signature="e#17706#17707#0" expanded="false" />
-            <element signature="e#17946#17947#0" expanded="false" />
-            <element signature="e#17988#17989#0" expanded="false" />
-            <element signature="e#18048#18049#0" expanded="false" />
-            <element signature="e#18090#18091#0" expanded="false" />
-            <element signature="e#18265#18266#0" expanded="false" />
-            <element signature="e#18296#18297#0" expanded="false" />
-            <element signature="e#18355#18356#0" expanded="false" />
-            <element signature="e#18400#18401#0" expanded="false" />
-            <element signature="e#18461#18462#0" expanded="false" />
-            <element signature="e#18504#18505#0" expanded="false" />
-            <element signature="e#19951#19952#0" expanded="false" />
-            <element signature="e#20000#20001#0" expanded="false" />
-            <element signature="e#20193#20194#0" expanded="false" />
-            <element signature="e#20242#20243#0" expanded="false" />
-            <element signature="e#20317#20318#0" expanded="false" />
-            <element signature="e#20366#20367#0" expanded="false" />
-            <element signature="e#21507#21508#0" expanded="false" />
-            <element signature="e#21543#21544#0" expanded="false" />
-            <element signature="e#21613#21614#0" expanded="false" />
-            <element signature="e#21648#21649#0" expanded="false" />
-            <element signature="e#21841#21842#0" expanded="false" />
-            <element signature="e#21877#21878#0" expanded="false" />
-            <element signature="e#21945#21946#0" expanded="false" />
-            <element signature="e#21980#21981#0" expanded="false" />
-            <element signature="e#22191#22192#0" expanded="false" />
-            <element signature="e#22230#22231#0" expanded="false" />
-            <element signature="e#22300#22301#0" expanded="false" />
-            <element signature="e#22335#22336#0" expanded="false" />
-            <element signature="e#22540#22541#0" expanded="false" />
-            <element signature="e#22579#22580#0" expanded="false" />
-            <element signature="e#22647#22648#0" expanded="false" />
-            <element signature="e#22682#22683#0" expanded="false" />
-            <element signature="e#22896#22897#0" expanded="false" />
-            <element signature="e#22938#22939#0" expanded="false" />
-            <element signature="e#23008#23009#0" expanded="false" />
-            <element signature="e#23043#23044#0" expanded="false" />
-            <element signature="e#23254#23255#0" expanded="false" />
-            <element signature="e#23296#23297#0" expanded="false" />
-            <element signature="e#23364#23365#0" expanded="false" />
-            <element signature="e#23399#23400#0" expanded="false" />
-            <element signature="e#23621#23622#0" expanded="false" />
-            <element signature="e#23666#23667#0" expanded="false" />
-            <element signature="e#23736#23737#0" expanded="false" />
-            <element signature="e#23771#23772#0" expanded="false" />
-            <element signature="e#23990#23991#0" expanded="false" />
-            <element signature="e#24035#24036#0" expanded="false" />
-            <element signature="e#24103#24104#0" expanded="false" />
-            <element signature="e#24138#24139#0" expanded="false" />
-            <element signature="e#25383#25384#0" expanded="false" />
-            <element signature="e#25416#25417#0" expanded="false" />
-            <element signature="e#25464#25465#0" expanded="false" />
-            <element signature="e#25502#25503#0" expanded="false" />
-            <element signature="e#25555#25556#0" expanded="false" />
-            <element signature="e#25592#25593#0" expanded="false" />
-            <element signature="e#25657#25658#0" expanded="false" />
-            <element signature="e#25705#25706#0" expanded="false" />
-            <element signature="e#25767#25768#0" expanded="false" />
-            <element signature="e#25807#25808#0" expanded="false" />
-            <element signature="e#26005#26006#0" expanded="false" />
-            <element signature="e#26048#26049#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/GL20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6953">
-          <caret line="425" column="16" selection-start-line="425" selection-start-column="16" selection-end-line="425" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/Texture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="158" column="52" selection-start-line="158" selection-start-column="52" selection-end-line="158" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/g2d/SpriteBatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="418" column="28" selection-start-line="418" selection-start-column="28" selection-end-line="418" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/math/Matrix4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5644">
-          <caret line="362" column="19" selection-start-line="362" selection-start-column="19" selection-end-line="362" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#4902#4903#0" expanded="false" />
-            <element signature="e#4925#4926#0" expanded="false" />
-            <element signature="e#5290#5291#0" expanded="false" />
-            <element signature="e#5313#5314#0" expanded="false" />
-            <element signature="e#5512#5513#0" expanded="false" />
-            <element signature="e#5539#5540#0" expanded="false" />
-            <element signature="e#5804#5805#0" expanded="false" />
-            <element signature="e#5841#5842#0" expanded="false" />
-            <element signature="e#6087#6088#0" expanded="false" />
-            <element signature="e#6121#6122#0" expanded="false" />
-            <element signature="e#6912#6913#0" expanded="false" />
-            <element signature="e#6985#6986#0" expanded="false" />
-            <element signature="e#13277#13278#0" expanded="false" />
-            <element signature="e#13308#13309#0" expanded="false" />
-            <element signature="e#14259#14260#0" expanded="false" />
-            <element signature="e#14276#14277#0" expanded="false" />
-            <element signature="e#32871#32872#0" expanded="false" />
-            <element signature="e#32915#32916#0" expanded="false" />
-            <element signature="e#43200#43201#0" expanded="false" />
-            <element signature="e#43242#43243#0" expanded="false" />
-            <element signature="e#44837#44838#0" expanded="false" />
-            <element signature="e#44899#44900#0" expanded="false" />
-            <element signature="e#59975#59976#0" expanded="false" />
-            <element signature="e#60043#60044#0" expanded="false" />
-            <element signature="e#63665#63666#0" expanded="false" />
-            <element signature="e#63712#63713#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2/4d114b5ef3ad3bf571b1f090cb00855991067e0b/lwjgl-2.9.2-sources.jar!/org/lwjgl/opengl/GL11.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.3/7b68e24f28daece0760c36360cfa9da18057a443/gdx-backend-lwjgl-1.9.3-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglGL20.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/GL20.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/Texture.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/math/Matrix4.java" />
     <entry file="file://$PROJECT_DIR$/assets/badlogic.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/Application.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/Application.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/PerspectiveCamera.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/ApplicationAdapter.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/Camera.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/OrthographicCamera.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="113" column="19" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="19" />
+        <state relative-caret-position="550">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/PerspectiveCamera.java">
+    <entry file="file://$PROJECT_DIR$/desktop/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="176">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/ApplicationAdapter.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/glutils/VertexBufferObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="392">
+          <caret line="135" column="17" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/Camera.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        <state relative-caret-position="1131">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Droplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/VertexAttributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/VertexAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/g2d/PolygonSpriteBatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/g2d/Batch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/glutils/VertexData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/Mesh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="245" column="66" selection-start-line="245" selection-start-column="66" selection-end-line="245" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/com/badlogic/gdx/physics/box2d/BodyDef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/com/badlogic/gdx/physics/box2d/Box2DDebugRenderer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding>
+            <element signature="e#2297#2298#0" expanded="true" />
+            <element signature="e#2355#2356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/finnstr/libgdx/liquidfun/ParticleDebugRenderer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/finnstr/libgdx/liquidfun/ParticleDebugRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="64" column="31" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1003#1004#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="788">
+          <caret line="157" column="20" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/com/badlogic/gdx/physics/box2d/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="742" column="16" selection-start-line="742" selection-start-column="16" selection-end-line="742" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/g2d/SpriteBatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+          <folding>
+            <element signature="e#2998#2999#0" expanded="true" />
+            <element signature="e#3021#3022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/Float.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="849" column="31" selection-start-line="849" selection-start-column="31" selection-end-line="849" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/utils/NumberUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.3/7b68e24f28daece0760c36360cfa9da18057a443/gdx-backend-lwjgl-1.9.3-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/LiquidfunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="135" column="25" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/finnstr/libgdx/liquidfun/ParticleGroupDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="28" />
+          <folding>
+            <element signature="e#1107#1121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/finnstr/libgdx/liquidfun/ParticleSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="184" column="13" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/GdxUtils.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="264">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#31#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/OrthographicCamera.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Droplet.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="24" />
+        <state relative-caret-position="616">
+          <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
           <folding>
-            <element signature="e#1859#1860#0" expanded="true" />
-            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#31#626#0" expanded="true" />
+            <marker date="1468446631351" expanded="true" signature="4862:4964" ph="{...}" />
+            <marker date="1468446631351" expanded="true" signature="5117:5329" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/src/main/java/com/minivac/livewater/desktop/DesktopLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/com/badlogic/gdx/physics/box2d/Box2DDebugRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="e#2046#2047#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/glutils/ShapeRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding>
+            <element signature="e#4088#4089#0" expanded="true" />
+            <element signature="e#4105#4106#0" expanded="true" />
+            <element signature="e#4148#4149#0" expanded="true" />
+            <element signature="e#4178#4179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/2bf97653cc496f9ef2f76ecf2f29b1918821f474/gdx-1.9.3-sources.jar!/com/badlogic/gdx/graphics/glutils/ShaderProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/com/badlogic/gdx/physics/box2d/Body.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/core/libs/gdx-liquidfun.jar!/com/badlogic/gdx/physics/box2d/PolygonShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding>
+            <element signature="e#2872#2873#0" expanded="true" />
+            <element signature="e#2904#2905#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Game.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#31#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+        <state relative-caret-position="638">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
           <folding />
         </state>
       </provider>
