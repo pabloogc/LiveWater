@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.*
 import com.badlogic.gdx.graphics.VertexAttributes.Usage
 import com.badlogic.gdx.graphics.glutils.FrameBuffer
 import com.badlogic.gdx.graphics.glutils.ShaderProgram
+import com.badlogic.gdx.math.Vector2
 import com.badlogic.gdx.physics.box2d.PolygonShape
 import com.badlogic.gdx.utils.NumberUtils
 import finnstr.libgdx.liquidfun.ParticleDef
@@ -19,12 +20,12 @@ class Droplet {
 
     companion object {
         const val MAX_PARTICLES = 10000
-        const val RADIUS = 1f
-        const val VERTEX_PER_DROPLET = 4
-        const val INDEX_PER_DROPLET = 6
+        const val TRIANGLE_SCALE = 2.5f
+        const val VERTEX_PER_DROPLET = 3
+        const val INDEX_PER_DROPLET = 3
         const val POTENTIAL_MAP_SIZE = 128
 
-        val INDEX_OFFSET = shortArrayOf(0, 1, 2, 0, 2, 3)
+        val INDEX_OFFSET = shortArrayOf(0, 1, 2)
         val ATTRIBUTES = VertexAttributes(
                 VertexAttribute(Usage.Position, 3, "center"),
                 VertexAttribute(Usage.Position, 3, "position")
@@ -64,13 +65,6 @@ class Droplet {
             dampingStrength = 0.2f
         })
 
-//        val dropletParticleGroup = particleSystem.createParticleGroup(
-//                ParticleGroupDef().apply {
-//                    particleCount = 0
-//                    flags.add(ParticleDef.ParticleType.b2_waterParticle)
-//                    position.set(0f, 0f)
-//                    shape = PolygonShape().apply { setAsBox(Game.WORLD_WIDTH / 10f, Game.WORLD_HEIGHT / 10f) }
-//                })
 
         fun create() {
             potentialFbo = FrameBuffer(Pixmap.Format.RGBA8888, POTENTIAL_MAP_SIZE, POTENTIAL_MAP_SIZE, false)
@@ -79,11 +73,16 @@ class Droplet {
         }
 
         fun addParticle() {
+            addParticle(4 * randomSignedFloat(), 4 * randomSignedFloat())
+        }
+
+        fun addParticle(x: Float, y: Float) {
             particleSystem.createParticle(ParticleDef().apply {
-                position.set(particleSystem.particleCount / 100f, 0f)
+                position.set(x, y)
                 flags.add(ParticleDef.ParticleType.b2_waterParticle)
             })
         }
+
 
         fun render() {
             val count = pack()
@@ -137,26 +136,26 @@ class Droplet {
             gl.glDisable(GL20.GL_BLEND)
         }
 
-        fun pack(): Int {
+        private fun pack(): Int {
             var idx = 0
+
+            val writeVertex = fun(x: Float, y: Float, pos: Vector2) {
+                //center
+                DROPLET_BUFFER[idx++] = pos.x
+                DROPLET_BUFFER[idx++] = pos.y
+                DROPLET_BUFFER[idx++] = 0f
+
+                //position
+                DROPLET_BUFFER[idx++] = x
+                DROPLET_BUFFER[idx++] = y
+                DROPLET_BUFFER[idx++] = 0f
+            }
+
             for (i in 0..particleSystem.particleCount - 1) {
                 val pos = particleSystem.particlePositionBuffer[i]
-                val writeVertex = fun(x: Float, y: Float) {
-                    //center
-                    DROPLET_BUFFER[idx++] = pos.x
-                    DROPLET_BUFFER[idx++] = pos.y
-                    DROPLET_BUFFER[idx++] = 0f
-
-                    //position
-                    DROPLET_BUFFER[idx++] = x
-                    DROPLET_BUFFER[idx++] = y
-                    DROPLET_BUFFER[idx++] = 0f
-                }
-
-                writeVertex(pos.x - RADIUS, pos.y - RADIUS)
-                writeVertex(pos.x - RADIUS, pos.y + RADIUS)
-                writeVertex(pos.x + RADIUS, pos.y + RADIUS)
-                writeVertex(pos.x + RADIUS, pos.y - RADIUS)
+                writeVertex(pos.x + 0.0f * TRIANGLE_SCALE, pos.y + 0.622008459f * TRIANGLE_SCALE, pos) // top
+                writeVertex(pos.x - 0.5f * TRIANGLE_SCALE, pos.y - 0.311004243f * TRIANGLE_SCALE, pos) // bottom left
+                writeVertex(pos.x + 0.5f * TRIANGLE_SCALE, pos.y - 0.311004243f * TRIANGLE_SCALE, pos) // bottom right
             }
 
             particleMesh.updateVertices(0, DROPLET_BUFFER, 0, idx)
@@ -185,14 +184,13 @@ private const val POTENTIAL_VERTEX_SHADER = """
 
 //language=GLSL
 private const val POTENTIAL_FRAGMENT_SHADER = """
-    #define SQRT_2 1.414
     varying vec3 c;
     varying vec3 p;
 
     void main(){
         float dx = c.x - p.x;
         float dy = c.y - p.y;
-        float d = (dx * dx + dy * dy);
+        float d = (dx * dx + dy * dy); //Distance squared. Also potential is: CONSTANT / (d * d), but we can skip that
         gl_FragColor = vec4(0.0, 0.0, 1.0, max(1.0 - d, 0.0));
     }
 """
@@ -207,10 +205,8 @@ private const val LIQUID_VERTEX_SHADER = """
 
     void main(){
         vec4 clipPosition = mvp * vec4(position.xyz, 1.0);
-        //No need to divide by w, we are using orthogonal projection
-        //so its always 1
-
         //Map the vertex to the buffer texture that fills the screen
+        //No need to divide by w, we are using orthogonal projection so its always 1
         t = (clipPosition.xy + vec2(1.0, 1.0)) / 2.0;
         gl_Position = clipPosition;
     }
@@ -221,9 +217,23 @@ private const val LIQUID_FRAGMENT_SHADER = """
     uniform sampler2D tex;
     varying vec2 t;
 
+    const float step = 0.005;
+    const int samples = 5;
+    const vec2 lightPosition = normalize(vec2(0.0, 1.0));
+    const float depthColorShift = 0.8;
+    const vec4 mixColor = vec4(depthColorShift, depthColorShift, depthColorShift, 1.0);
+
     void main(){
         vec4 c = texture2D(tex, t);
-        if(c.b > 0.7) gl_FragColor = vec4(0.0, 0.0, c.b, c.b);
+        if(c.b > 0.7){
+            float depth = 0;
+            vec4 outColor = vec4(0.01, 0.13, c.b, c.b);
+            for(int i = 0; i < samples; i++){
+                depth += texture2D(tex, t + (step * i * lightPosition)).b / samples;
+            }
+            outColor = mix(mixColor, outColor, depth);
+            gl_FragColor = outColor;
+        }
         else discard;
     }
 """

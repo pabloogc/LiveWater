@@ -51,3 +51,6 @@ inline fun timed(name: String, f: () -> Unit) {
     val elapsed = (System.nanoTime() - start) / 1000000
     Gdx.app.log("Time", "$name: $elapsed ms")
 }
+
+//Random utilities
+fun randomSignedFloat() = -1f + 2f * Math.random().toFloat()

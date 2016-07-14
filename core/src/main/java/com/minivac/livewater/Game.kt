@@ -3,25 +3,28 @@ package com.minivac.livewater
 import com.badlogic.gdx.ApplicationAdapter
 import com.badlogic.gdx.Gdx
 import com.badlogic.gdx.Gdx.*
+import com.badlogic.gdx.Input
 import com.badlogic.gdx.graphics.*
 import com.badlogic.gdx.graphics.g2d.SpriteBatch
 import com.badlogic.gdx.graphics.profiling.GLProfiler
 import com.badlogic.gdx.math.Vector2
-import com.badlogic.gdx.physics.box2d.BodyDef
-import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer
-import com.badlogic.gdx.physics.box2d.PolygonShape
-import com.badlogic.gdx.physics.box2d.World
+import com.badlogic.gdx.math.Vector3
+import com.badlogic.gdx.physics.box2d.*
 import finnstr.libgdx.liquidfun.*
 
 
 object Game : ApplicationAdapter() {
 
-    const val WORLD_SCALE = 10
+    const val WORLD_SCALE = 4
     const val WORLD_WIDTH = 8f * WORLD_SCALE
     const val WORLD_HEIGHT = 6f * WORLD_SCALE
     const val WORLD_DT = 1 / 60f
 
     val fpsLogger = FPSLogger()
+
+    val touch = Vector3()
+    val lastTouch = Vector2()
+    val touchDir = Vector2()
 
     val world = World(Vector2(0f, -10f), true)
     lateinit var camera: OrthographicCamera
@@ -32,7 +35,7 @@ object Game : ApplicationAdapter() {
 
         //GLProfiler.enable()
 
-        camera = OrthographicCamera(WORLD_WIDTH, WORLD_HEIGHT)
+        camera = OrthographicCamera(WORLD_WIDTH * 1.3f, WORLD_HEIGHT * 1.3f)
         camera.update()
 
         debugDraw = Box2DDebugRenderer()
@@ -75,7 +78,8 @@ object Game : ApplicationAdapter() {
 
         shape.dispose()
 
-        for (i in 1..WORLD_SCALE * 50) {
+//        for (i in 1..WORLD_SCALE * 100) {
+        for (i in 1..1) {
             Droplet.addParticle()
         }
     }
@@ -84,15 +88,40 @@ object Game : ApplicationAdapter() {
     override fun render() {
         fpsLogger.log()
 
-        world.step(Gdx.graphics.deltaTime, 10, 6,
-                Droplet.particleSystem.calculateReasonableParticleIterations(Gdx.graphics.deltaTime))
+        world.step(WORLD_DT, 10, 6,
+                Droplet.particleSystem.calculateReasonableParticleIterations(WORLD_DT))
 
 
         gl.glViewport(0, 0, Gdx.app.graphics.width, Gdx.app.graphics.height)
-        gl.glClearColor(0.96f, 0.96f, 0.96f, 1f)
+        gl.glClearColor(0.46f, 0.46f, 0.46f, 1f)
         gl.glClear(GL20.GL_COLOR_BUFFER_BIT or GL20.GL_DEPTH_BUFFER_BIT)
 
+        if (Gdx.input.isTouched) {
+
+            touch.set(Gdx.input.x.toFloat(), Gdx.input.y.toFloat(), 0f)
+            camera.unproject(touch)
+
+            if (touch.x != lastTouch.x && touch.y != lastTouch.y) {
+                touchDir.set(touch.x - lastTouch.x, touch.y - lastTouch.y).nor().scl(10f)
+                lastTouch.set(touch.x, touch.y)
+            }
+
+            if (Gdx.input.isButtonPressed(Input.Buttons.LEFT)) {
+                Game.world.gravity = touchDir
+            } else if (Gdx.input.isButtonPressed(Input.Buttons.RIGHT)) {
+                val s = CircleShape().apply { radius = WORLD_SCALE.toFloat() }
+                s.position.set(touch.x, touch.y)
+                val t = Transform().apply { position = Vector2(touch.x, touch.y) }
+                Droplet.particleSystem.destroyParticleInShape(s, t)
+            } else if (Gdx.input.isButtonPressed(Input.Buttons.MIDDLE)) {
+                Droplet.addParticle(
+                        touch.x + randomSignedFloat() * WORLD_SCALE,
+                        touch.y + randomSignedFloat() * WORLD_SCALE)
+            }
+        }
+
         Droplet.render()
+        //particleDebugDraw.render(Droplet.particleSystem, WORLD_SCALE.toFloat(), camera.combined)
 
         //Gdx.app.log("Profile", profileString())
         //GLProfiler.reset()
