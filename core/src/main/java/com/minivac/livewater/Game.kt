@@ -25,13 +25,18 @@ object Game : ApplicationAdapter() {
 
     val world = World(Vector2(0f, -10f), false)
     lateinit var camera: OrthographicCamera
-    lateinit var debugDraw : Box2DDebugRenderer
+    lateinit var debugDraw: Box2DDebugRenderer
 
 
     override fun create() {
-        camera = OrthographicCamera()
-        debugDraw = Box2DDebugRenderer()
 
+        val width = Gdx.graphics.width.toFloat()
+        val height = Gdx.graphics.height.toFloat()
+
+        camera = OrthographicCamera(WORLD_WIDTH, WORLD_HEIGHT)
+        camera.update()
+
+        debugDraw = Box2DDebugRenderer()
         initWorld()
     }
 
@@ -70,7 +75,6 @@ object Game : ApplicationAdapter() {
         world.step(WORLD_DT, 10, 6, 2)
 
         gl.glViewport(0, 0, Gdx.app.graphics.width, Gdx.app.graphics.height)
-        //camera.setToOrtho(false, Gdx.app.graphics.width.toFloat(), Gdx.app.graphics.height.toFloat())
 
         gl.glClearColor(0f, 0f, 0f, 1f)
         gl.glClear(GL20.GL_COLOR_BUFFER_BIT)
