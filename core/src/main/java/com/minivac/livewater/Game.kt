@@ -15,7 +15,7 @@ import finnstr.libgdx.liquidfun.*
 
 object Game : ApplicationAdapter() {
 
-    const val WORLD_SCALE = 4
+    const val WORLD_SCALE = 4f
     const val WORLD_WIDTH = 8f * WORLD_SCALE
     const val WORLD_HEIGHT = 6f * WORLD_SCALE
     const val WORLD_DT = 1 / 60f
@@ -39,6 +39,10 @@ object Game : ApplicationAdapter() {
         camera.update()
 
         debugDraw = Box2DDebugRenderer()
+
+        debugDraw.SHAPE_AWAKE.set(Color.BLACK)
+        debugDraw.SHAPE_STATIC.set(Color.BLACK)
+
         particleDebugDraw = ParticleDebugRenderer(Color.WHITE, Droplet.MAX_PARTICLES)
         initWorld()
 
@@ -72,16 +76,10 @@ object Game : ApplicationAdapter() {
         wallDef.position.y = -WORLD_HEIGHT
         val ground = world.createBody(wallDef)
 
-
         listOf(ground, roof, leftWall, rightWall)
                 .forEach { it.createFixture(shape, 10f) }
 
         shape.dispose()
-
-//        for (i in 1..WORLD_SCALE * 100) {
-        for (i in 1..1) {
-            Droplet.addParticle()
-        }
     }
 
 
@@ -92,8 +90,9 @@ object Game : ApplicationAdapter() {
                 Droplet.particleSystem.calculateReasonableParticleIterations(WORLD_DT))
 
 
+        val color = 0.96f
         gl.glViewport(0, 0, Gdx.app.graphics.width, Gdx.app.graphics.height)
-        gl.glClearColor(0.46f, 0.46f, 0.46f, 1f)
+        gl.glClearColor(color, color, color, 1f)
         gl.glClear(GL20.GL_COLOR_BUFFER_BIT or GL20.GL_DEPTH_BUFFER_BIT)
 
         if (Gdx.input.isTouched) {
@@ -114,14 +113,18 @@ object Game : ApplicationAdapter() {
                 val t = Transform().apply { position = Vector2(touch.x, touch.y) }
                 Droplet.particleSystem.destroyParticleInShape(s, t)
             } else if (Gdx.input.isButtonPressed(Input.Buttons.MIDDLE)) {
-                Droplet.addParticle(
-                        touch.x + randomSignedFloat() * WORLD_SCALE,
-                        touch.y + randomSignedFloat() * WORLD_SCALE)
+                for (i in 1..3) {
+                    Droplet.addParticle(
+                            touch.x + randomSignedFloat() * WORLD_SCALE,
+                            touch.y + randomSignedFloat() * WORLD_SCALE)
+                }
             }
         }
 
         Droplet.render()
         //particleDebugDraw.render(Droplet.particleSystem, WORLD_SCALE.toFloat(), camera.combined)
+
+        debugDraw.render(world, camera.combined)
 
         //Gdx.app.log("Profile", profileString())
         //GLProfiler.reset()

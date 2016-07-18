@@ -61,7 +61,7 @@ class Droplet {
         //PHYSICS
 
         val particleSystem = ParticleSystem(Game.world, ParticleSystemDef().apply {
-            radius = 0.5f
+            radius = 0.55f
             dampingStrength = 0.2f
         })
 
