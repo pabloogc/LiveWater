@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0cf26c6-2ae6-4a98-bbe5-0ee62079a3bf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/META-INF/core_main.kotlin_module" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/desktop/desktop_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/desktop/desktop_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/desktop/desktop_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/desktop/desktop_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Droplet.kt" afterPath="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Droplet.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Game.kt" afterPath="$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Game.kt" />
     </list>
     <ignored path="LiveWater.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +46,8 @@
       <file leaf-file-name="Game.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Game.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="115" column="33" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+            <state relative-caret-position="283">
+              <caret line="111" column="48" selection-start-line="111" selection-start-column="48" selection-end-line="111" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -1258,6 +1254,16 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="additionalArguments" value="" />
+      <option name="command" value="run" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="printBacktrace" value="false" />
+      <module name="LiveWater" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1456,7 +1462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1468487812093</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add demo gif">
+      <created>1468840921638</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1468840921638</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1504,7 +1517,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add OSX target to LiquidFun natives" />
-    <option name="LAST_COMMIT_MESSAGE" value="add OSX target to LiquidFun natives" />
+    <MESSAGE value="Add demo gif" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add demo gif" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1773,8 +1787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/minivac/livewater/Game.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="115" column="33" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+        <state relative-caret-position="283">
+          <caret line="111" column="48" selection-start-line="111" selection-start-column="48" selection-end-line="111" selection-end-column="48" />
           <folding />
         </state>
       </provider>
